@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import "./App.css";
 
@@ -25,7 +26,7 @@ const AppLink = styled.a`
   color: #61dafb;
 `;
 
-function App() {
+const App: React.FC = () => {
   return (
     <AppWrapper>
       <AppHeader>
@@ -43,6 +44,6 @@ function App() {
       </AppHeader>
     </AppWrapper>
   );
-}
+};
 
 export default App;
